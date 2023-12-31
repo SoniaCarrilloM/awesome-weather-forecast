@@ -61,6 +61,9 @@ main {
   margin-bottom: 5px;
 }
 
+ul {
+  list-style: none;
+}
 .weather-app-temperature-container {
   display: flex;
 }
@@ -80,6 +83,24 @@ main {
 }
 .weather-app-details strong {
   color: rgb(254, 8, 127);
+}
+
+.weather-forecast {
+  margin-top: 20px;
+
+  font-size: 16px;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: #000;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
 
 footer {
